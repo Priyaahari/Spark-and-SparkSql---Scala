@@ -1,6 +1,7 @@
 
 						HARIPRIYAA U MANIAN [hum160030]
-					Big Data Management and Analytics Assignment2 - Readme file
+				Big Data Management and Analytics  - Readme file
+			Spark and Spark Sql - scala - FInidng Mutual Friends for the User and Analysis o Yelp DataSet
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 Question1:
