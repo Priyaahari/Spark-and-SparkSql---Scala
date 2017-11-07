@@ -1,0 +1,487 @@
+Question2
+
+
+
+q1
+
+
+(15932,15957)	3
+(18667,18793)	26
+(31606,31722)	22
+(2606,39157)	2
+(6850,6880)	1
+(3023,30620)	1
+(1137,49422)	1
+(4793,29610)	1
+(46053,46069)	3
+(36836,37221)	6
+(9713,9714)	5
+(4464,4481)	10
+(3165,3171)	2
+(31627,31741)	41
+(21294,47366)	2
+(36672,37768)	3
+(19363,19375)	8
+(8315,24325)	1
+(39653,39671)	19
+(25267,25276)	4
+(4295,25992)	1
+(13190,13196)	1
+(31667,31694)	28
+(29947,29981)	39
+(48193,48195)	3
+(35201,35208)	9
+(3238,31024)	3
+(10096,37613)	3
+(3322,3347)	11
+(31674,31701)	32
+(12627,15327)	1
+(13530,39458)	7
+(23530,23558)	2
+(1100,34164)	4
+(23779,32763)	3
+(49804,49807)	14
+(16389,26061)	14
+(29883,44805)	3
+(31470,31478)	5
+(21016,23097)	4
+
+
+q1-sql
+
+
+|user1|user2|count|
++-----+-----+-----+
+|    1|  623|  273|
+|   10|13793|   67|
+|10000|10093|  420|
+|10002|37233|   88|
+|10003|29646|   53|
+|10009|10042|   76|
+|10013|37224|  198|
+|10022|10038|  231|
+|10028|36672|  637|
+|10047|39240|  415|
+|10051|13886|  126|
+|10062|37711|  149|
+|10072|36687|  641|
+|10091|37416|  263|
+|10091|37601|   67|
+|10100|44089|  542|
+|10113|37432|  200|
+|10114|36847|  331|
+|10116|10140|   11|
+| 1012|34355|   82|
+
+
+
+
+
+q2
+
+count: 99 (18712,18721)    user1: 18712  details :Nola Joyner, 1872 Lyndon Street  user2: 18721   details : Jane Irish, 582 Dogwood Road
+count: 99 (18676,18721)    user1: 18676  details :William Carey, 91 School Street  user2: 18721   details : Jane Irish, 582 Dogwood Road
+count: 99 (18722,18729)    user1: 18722  details :Kenneth Miller, 2500 Westfall Avenue  user2: 18729   details : Adrian Wells, 138 Kooter Lane
+count: 99 (18681,18707)    user1: 18681  details :Arthur Stephenson, 3405 Jewell Road  user2: 18707   details : Raymond Norman, 2937 Black Stallion Road
+count: 99 (18666,18668)    user1: 18666  details :Thomas Hook, 1153 Sycamore Circle  user2: 18668   details : Amanda Degroot, 1705 Upton Avenue
+count: 99 (18710,18728)    user1: 18710  details :Gerald Wisner, 4414 Cambridge Place  user2: 18728   details : Anthony Manley, 258 Eastland Avenue
+count: 99 (18670,18679)    user1: 18670  details :Alan Hiltz, 3441 Peck Street  user2: 18679   details : Titus Beach, 379 Weekley Street
+count: 99 (18685,18696)    user1: 18685  details :Bambi Villegas, 1329 Grove Avenue  user2: 18696   details : Amanda Turner, 1164 Hewes Avenue
+count: 99 (18676,18712)    user1: 18676  details :William Carey, 91 School Street  user2: 18712   details : Nola Joyner, 1872 Lyndon Street
+count: 99 (18742,18743)    user1: 18742  details :Paul Mackenzie, 4092 Marigold Lane  user2: 18743   details : Paul Nguyen, 471 Spring Street
+count: 99 (18695,18711)    user1: 18695  details :Arron Batz, 4301 Doe Meadow Drive  user2: 18711   details : Roger Salls, 1144 Kinney Street
+count: 99 (18688,18728)    user1: 18688  details :Gregory Won, 1146 Meadow Drive  user2: 18728   details : Anthony Manley, 258 Eastland Avenue
+count: 99 (18698,18699)    user1: 18698  details :Caroline Knight, 2486 School House Road  user2: 18699   details : Martha Stott, 468 Twin House Lane
+count: 99 (18683,18688)    user1: 18683  details :Charles Davis, 2359 West Fork Drive  user2: 18688   details : Gregory Won, 1146 Meadow Drive
+count: 99 (18688,18710)    user1: 18688  details :Gregory Won, 1146 Meadow Drive  user2: 18710   details : Gerald Wisner, 4414 Cambridge Place
+count: 99 (18683,18710)    user1: 18683  details :Charles Davis, 2359 West Fork Drive  user2: 18710   details : Gerald Wisner, 4414 Cambridge Place
+count: 99 (18683,18728)    user1: 18683  details :Charles Davis, 2359 West Fork Drive  user2: 18728   details : Anthony Manley, 258 Eastland Avenue
+count: 98 (18657,18721)    user1: 18657  details :Isaac Huber, 4264 Scenicview Drive  user2: 18721   details : Jane Irish, 582 Dogwood Road
+count: 98 (31509,31557)    user1: 31509  details :Henry Ewing, 291 Dane Street  user2: 31557   details : Angelica Clements, 3435 North Bend River Road
+count: 98 (18728,18743)    user1: 18728  details :Anthony Manley, 258 Eastland Avenue  user2: 18743   details : Paul Nguyen, 471 Spring Street
+
+
+
+
+q2.sql
+
++-----+-----+-----+------+-------+----------------+--------+---------+--------------------+
+|user1|user2|count| fname|  lname|         address|   fname|    lname|             address|
++-----+-----+-----+------+-------+----------------+--------+---------+--------------------+
+|10096|36947|  660|Carlos|Woodfin|3936 Melm Street|   Laura|  Sanchez|  4825 Heritage Road|
+|10096|36905|  635|Carlos|Woodfin|3936 Melm Street|  Andres| Turcotte|2804 Willow Green...|
+|10096|36752|  263|Carlos|Woodfin|3936 Melm Street|  Bonnie|   Foster|475 Still Pasture...|
+|10096|22115|  261|Carlos|Woodfin|3936 Melm Street| Deborah|  Kimball|4062 Arlington Av...|
+|10096|36717|  403|Carlos|Woodfin|3936 Melm Street|Patricia|   Elmore|2050 High Meadow ...|
+|10096|21567|  156|Carlos|Woodfin|3936 Melm Street|  Daniel|   Foster|4562 Turkey Pen Lane|
+|10096|37485|  317|Carlos|Woodfin|3936 Melm Street|  Thomas|   Becker|   367 Paradise Lane|
+|10096|36738|  367|Carlos|Woodfin|3936 Melm Street|  Steven|    Evans|2084 Maxwell Farm...|
+|10096|37812|  495|Carlos|Woodfin|3936 Melm Street|  Carole|    Mixon|307 Haymond Rocks...|
+|10096|36720|  339|Carlos|Woodfin|3936 Melm Street|    Leon| Campbell|       722 Ray Court|
+|10096|37750|  172|Carlos|Woodfin|3936 Melm Street|  Angela|     Farr|  1735 Birch  Street|
+|10096|37148|  200|Carlos|Woodfin|3936 Melm Street|Veronica|    Wyatt|  564 Preston Street|
+|10096|37020|   80|Carlos|Woodfin|3936 Melm Street|    Judy|    Evans|   977 Euclid Avenue|
+|10096|37779|  424|Carlos|Woodfin|3936 Melm Street|   Peter|   Molina|  3769 Heliport Loop|
+|10096|37068|  363|Carlos|Woodfin|3936 Melm Street|Reginald|   Randle| 467 Chenoweth Drive|
+|10096|10097|  606|Carlos|Woodfin|3936 Melm Street| Kenneth|     West|4161 Randolph Street|
+|10096|36816|  489|Carlos|Woodfin|3936 Melm Street| Bridget| Cuthbert|    2090 Myra Street|
+|10096|36936|  664|Carlos|Woodfin|3936 Melm Street|   Leona|  Hoskins|      757 Jail Drive|
+|10096|44053|  234|Carlos|Woodfin|3936 Melm Street| Richard|    Moses|   4699 Walnut Drive|
+|10096|37070|  508|Carlos|Woodfin|3936 Melm Street|    Todd|Abernathy|  1052 Rockwell Lane|
++-----+-----+-----+------+-------+----------------+--------+---------+--------------------+
+
+
+
+------------------------------------------------------------------------------
+
+
+q3
+
+(BiZAzf2SAFCE0gJrX-PGFw,2200 Oxford StDowntown BerkeleyBerkeley, CA 94704 ,List(American (New), Restaurants),863)
+(JrGSfjRqAtIZjjwC3FFQ4w,1001 Higuera StSte ASan Luis Obispo, CA 93401 ,List(American (Traditional), Barbeque, Restaurants),1072)
+(PUyZcKYvrNZLzgRfM9evRg,105 N Hill AveSte 104PasadenaPasadena, CA 91106 ,List(Burgers, Restaurants, Hot Dogs),808)
+(VFslQjSgrw4Mu5_Q1xk1KQ,529 Alma StPalo Alto, CA 94301 ,List(Steakhouses, Brazilian, Restaurants),1071)
+(VeiGa7h8p1I2yAIfgZjgtw,393 Stanford Shopping CtrPalo Alto, CA 94304 ,List(Food, Bakeries),1672)
+(j0C1t08TLW_iPPdC-8P_vQ,2442 Telegraph AveTelegraph AveBerkeley, CA 94704 ,List(Soup, Sandwiches, Restaurants),795)
+(piXuRfZ81xFGA64WFJrKkQ,926 Broxton AveWestwoodLos Angeles, CA 90024 ,List(Food, Desserts, Bakeries, Ice Cream & Frozen Yogurt),2634)
+(pvlM--HZY1a8SqMXiwEz1A,32 Church StHarvard SquareCambridge, MA 02138 ,List(Cajun/Creole, Tex-Mex, Restaurants),924)
+(qHmamQPCAKkia9X0uryA8g,2534 Durant AveTelegraph AveBerkeley, CA 94704 ,List(Restaurants, Hot Dogs),1178)
+(r7Ggh7ejuBWjT0TQPW-ypA,2399 Telegraph AveTelegraph AveBerkeley, CA 94704 ,List(Food, Desserts, Caterers, Event Planning & Services, Ice Cream & Frozen Yogurt),934)
+
+
+q3.sql
+
+
++--------------------+------------+--------------------+--------------------+
+|          businessId|countOfUsers|          businessId|             address|
++--------------------+------------+--------------------+--------------------+
+|-9GunsagWEkoxOpxI...|          88|-9GunsagWEkoxOpxI...|2000 Guadalupe St...|
+|2V05ZCSIWn7PnB31f...|          16|2V05ZCSIWn7PnB31f...|1515 El Camino Re...|
+|2wMzc8MMdQhuZ7gLY...|          13|2wMzc8MMdQhuZ7gLY...|57 JFK StSte 2Har...|
+|F6ReGpF94EKWzh6dS...|          32|F6ReGpF94EKWzh6dS...|2859 BroadwayMorn...|
+|ICoLhQP3bryEmiYeU...|         153|ICoLhQP3bryEmiYeU...|496 Massachusetts...|
+|Q872Q2cOxRNPBwL4u...|          17|Q872Q2cOxRNPBwL4u...|1415 E Colorado B...|
+|S-8lD6FJsmGrEnvCW...|          33|S-8lD6FJsmGrEnvCW...|368 S Lake AvePas...|
+|SKfMzNiCSCURK2ATa...|          19|SKfMzNiCSCURK2ATa...|373 Richmond StDo...|
+|VaY4BVjVbcneLwfBD...|          40|VaY4BVjVbcneLwfBD...|2 Arrow StHarvard...|
+|WoietoT-A6xNE3_AT...|          31|WoietoT-A6xNE3_AT...|61 JFK StHarvard ...|
+|Xvlq_TLM8hFSUfeD9...|          11|Xvlq_TLM8hFSUfeD9...|17 Snow StDownCit...|
+|_U7dzehUGTLIcVjy3...|          37|_U7dzehUGTLIcVjy3...|3495 US Hwy 1Prin...|
+|__EmsZiRXiUmljbfp...|          11|__EmsZiRXiUmljbfp...|213 Draper Rd SWB...|
+|bWasMbk9JZLQLQf_E...|          88|bWasMbk9JZLQLQf_E...|1207 Amsterdam Av...|
+|c8Fu2uP7pg4GcqjlS...|          42|c8Fu2uP7pg4GcqjlS...|W Hotel930 Hilgar...|
+|ctkEyK_sfYrA_TuUf...|          12|ctkEyK_sfYrA_TuUf...|2201 W Holcombe B...|
+|diUeCc7LTI2mM5bEs...|          16|diUeCc7LTI2mM5bEs...|458 Wickenden StP...|
+|n7uT9vOChSHLGfw_4...|          38|n7uT9vOChSHLGfw_4...|1061 Gayley AveWe...|
+|o7BQ5ZQDWbplY1nKK...|         141|o7BQ5ZQDWbplY1nKK...|3211 Holiday CtSt...|
+|rlNki6vri8dQSv-A_...|          15|rlNki6vri8dQSv-A_...|8899 University C...|
++--------------------+------------+--------------------+--------------------+
+
+
+
+-------------------------------------------------------------------------------------------------
+
+
+q4
+
+,5.0
+l0uRV3nGEroXqsPypD4qdQ,5.0
+YJmZ3m8ZhOKot-pQSbvK5g,5.0
+l7ta4CB_ueYGfuLspVtRwQ,3.0
+5Khx9Ee8qD8Jcx9LkItWlA,4.0
+oHPAS4lD7-dV-y16AIwSQA,2.0
+-dbM944bfCz-KeUD5gTErw,2.0
+r4Uz646YLSXozir6v--UEQ,5.0
+dfYNTBw--CYlZbFz581kYQ,2.0
+Wb5Gs_FpWDYjrhn0luPd3A,3.0
+a3FOiNfWQZad9u-IHKaDfQ,1.0
+fdwVdy6TuY1kjYeEPMZKVw,4.0
+sBswn4u5KkmMyWVCV8mTrA,2.0
+jkcJ8lbgKz0-TbaNQmy98A,2.0
+pSjJhzXGEwKfwqSyqkWEyw,1.0
+BdYbDYPV6AVG0b97aO4nSA,4.0
+gjfcfzrYZ0O1xINHtnQKiA,2.0
+qDCYJvtnFGx_TV5Yvg6yKQ,1.0
+xZ-3S7Hs82NzPhFWQk8PcQ,1.0
+tJwfN0zLXc5e8tDqeIzXuQ,4.0
+4KHMBP6px3V00ezVbBm2Dg,5.0
+uMJsK3x-981hUP2dZAVDag,4.0
+vkLx9U874Lda5zR3Q9dgMQ,5.0
+j1K-jb5zAaOrYfaevioPjA,3.0
+pJH5bXksNYuuKrfCF4u5JA,5.0
+1Q8cMMKZ7-jj2Sqbgw2HHQ,5.0
+PnBwDitaPUodtlSpN3ELJw,4.0
+gynjNsiuxwKeQa8_wQ3PwA,2.0
+137jfoylwkwIngE0lFvmDA,5.0
+CDKiSnX_Bm7MnbHZr67dgA,2.0
+LjjqjneBuvp94-v4l0wnNQ,4.0
+uDYNXKTd_cixNNfsyWg57Q,4.0
+c9G7Lrz6s_xnDB8zfwbxWg,4.0
+lB3CnKg5PzSygCMA8wiGJg,2.0
+_fGysU48tncAdUlJHbMwXw,3.0
+cAD_WIDhmIo_Jl-iTargRQ,5.0
+QwWQwOzPaEqZ0klzgaxr-Q,2.0
+lOjPaOhsQDF_Ofs8sgmTfA,5.0
+zmEAs3-OZd8KCiM4nFX6rA,4.0
+lT6e_jRDzuq32vCQHc-I-A,1.0
+UXCbdc_Tksomv3bORw38sw,3.0
+3CCamt370zF-giEoYEjVFA,1.0
+Jm3XF8wHt88rwm-EQ8IdiQ,2.0
+yuH5xwvZXKfbSl0bDt2ehw,3.0
+G9WHiBv1iND2Sb0yBYDz2g,2.0
+v8RLnGiWPFXuwnavp-NfSw,2.0
+K8g91aj7KnfzkCe0kAIA6Q,2.0
+YS7If3izfAVY67YMKambfg,2.0
+H_avO5foM95RuTG-BJ16OA,1.0
+Lo8dcwO8JtdO46f4sSWCOw,2.0
+vlrAxP8VNwsQO6kB4DM48w,4.0
+Uli44LjiGyJIGN1hS3RCZA,3.0
+vSJCDeql1VvuR8W9CfT22w,3.0
+_R4KplBG--Wu49OEAp_UAg,3.0
+OEW-Kv37Vu7jDNbv5oU-Pg,1.0
+Njtl4EgiPTERPluDNl-T8g,1.0
+o_KkLS3l_1UW_zlh0-dJsQ,3.0
+i4BYGwau1Tg5QhyT_OdWfQ,2.0
+nHbgC7ARmeuZnve8rU38rQ,2.0
+5kk3tDlShYVDZAwiOL3etw,3.0
+HGj8FYzkxJ0Uw8vNjbyluA,3.0
+zh3vF80EW4LUIPMe7Qaekg,3.0
+x5YFBEjmxqsUST6uD5uGpQ,2.0
+2LwLCzob6EteRQn4ATPITA,4.0
+ZXNwO2bY3QTYP0k_5bhG1A,2.0
+E4hAjDJ-Gsmioyze51N0Ag,3.0
+bhaUur3Gv6AWCazZupaZZw,1.0
+QhIa3p7Al2PQDba4Xloucw,2.0
+9d9CsArF_AwJeks135Zlvg,1.0
+aHrxfhAf-_Kow-LLxQ-K3A,1.0
+lI-hR8ftiw88t8lLqvsaXQ,4.0
+6dD01Sfb3nkWBuXGDVjjxw,3.0
+OHibS38GEHFbvWNlKG56qw,1.0
+yS_ys8q0JxwQrpOl-Atbhg,3.0
+gzpfljP4vcIf3UbLK9hEHg,3.0
+hz21xWsTkKNgXUpHjqJsWA,1.0
+EkoxrijF3V4BpZ98HDlkqw,2.0
+0LYk_iKqj6MpqvwZYvy37w,2.0
+G1qjf1cKc7EQwEg-yyIXqQ,5.0
+hzUj-KpIFJvvdcQglY7DKw,1.0
+lHKllc-AJBBv8ZCd2msRzA,2.0
+g92NFS4IOcp-xsekqiS1oA,4.0
+e_fGOO7pkjEplOXjPg9IAA,2.0
+0qM9f_trpAZ9ZOUtf9vkZA,4.0
+PjjxS9YFL8TwkyzEUH91-g,3.0
+wyO1a9rzKLm7dvv818UI2A,3.0
+dsKuev5wn48qGCEFLm4_EQ,2.0
+Uw7QrD7WV9mCArD35v28tQ,3.0
+6HfGx_gVu1IHFnPL66kAOQ,3.0
+Wxd-EKF2Z4RHZUmwQ6Eeew,1.0
+bozvcy7kl2kJ2mBdKVxyUg,4.0
+_Gm6Mb6ivDAIVPjZoQNuNg,2.0
+nQjofiwon7kPqG4qMsq1cg,3.0
+UZ8UJRxnr-IZSD0yRnNe_A,4.0
+JS08wh2GNUGbOO78fRCDaQ,4.0
+ixYLMqLBLo4tfcuQ-ewk9g,1.0
+KPqOXroxF5roQuMsuitZ_w,4.0
+tYsiUE1mrm5ky2n4_1l4Yw,2.0
+rZ9Ckrw8wwNDWrx_tzZT8A,2.0
+6wCg_HlHVVO37U3zcN2YJA,4.0
+gPo9LSITdpVzyKDSYO3d0g,1.0
+4tMVO9I0esafnY7tj6bpbQ,3.0
+mxrAnnJDalCLB9A4bZzqRQ,3.0
+9wQAeTZtX8kMv8YYe_ouQA,4.0
+pB2AsYR4uEz6UiJ_opvURQ,1.0
+pohhs186WHSPKRGS_xAWAw,4.0
+Pf79R-WRZnk6l0lEq8unhQ,1.0
+I5PaiOdOl0lQKhDJbpc8pA,2.0
+F-dwTJ_B_6Xs37xdLIBNwA,2.0
+g8tXlFu7ZDZDnsYfSoAQ3g,2.0
+JssCk4of-CQ7j81ZLrZMZg,1.0
+ZTafjze2fSP7dtGX0AFpEA,2.0
+HCeB0Jx2TIjXmFBkrzvouw,4.0
+wsxs8Ccuk6RgmPtpWosDpA,1.0
+-Ct5EXCvnDOzJKXzgOj8pQ,4.0
+ea8aed8GjSyXb5GPL_84YA,1.0
+eK46h2eXL56_YlTOxcjMdA,3.0
+66l6U_UWetXnEYrQVSr3bA,1.0
+P5bUL3Engv-2z6kKohB6qQ,3.0
+7OfXF_s0FN_9ppKsxd2zEg,4.0
+LmbVnUQhSpSKenOdSWJC4A,4.0
+ybkYMP-SjJB8Sn-bnbYluQ,3.0
+I3GzvjkuSgeNd-3mzzSFJg,5.0
+yRw5bl_uL5ZpElpQhoCNXw,2.0
+bBd9FLGWzKuivAYkoVBoLA,1.0
+lx0LPcWHAopjj3_4ivHW2A,5.0
+NEOSYsubf7SVeVm8RytxYA,4.0
+_k1SZqmthiRtPRj7z48iaA,4.0
+ABuSGxrOlad3XJe-3wOv_Q,3.0
+hqojrGeufv6qYpN00R-OsA,4.0
+ZzK1CHC6SzeOyzRzvATS9A,2.0
+fs9VJxXFKTmd6W8Zqpr8Yg,3.0
+NRkq0q-lpAnDMQwrIiOxbw,3.0
+kcH_qXomMHeV2Q1tSc6RKA,3.0
+cQ2i-3GXwTiQ-vrCXDwMCA,3.0
+BhUpM5Ukm88Z-BffOfXYkA,1.0
+4QnzJP-aUg5sLYEP30KnzQ,4.0
+Befs3ADG-6GqPiTg-mW2Xw,1.0
+xJtd9lkLHbhHI2ME1WRU-A,5.0
+9jJBf3vc5dDUNO-vhWCiHA,3.0
+isSlR0cY7PhXUbuRI8qwvA,3.0
+5dyst4kNs6I_OZimKf4Hrw,3.0
+vxXmE--5q1nOUGXympBCnA,1.0
+dUL9TUH6B_jUkPgC6562hQ,2.0
+veQVlF_629VxcTFTk1aznw,2.0
+hHaK_oT117KOLPHnGYoDDA,3.0
+p-PUhsp05anDunttBVE7mg,4.0
+DlvepUjjIoVWmldhxJx61Q,2.0
+Sbael1bj0pVFRtoSWq6gcQ,5.0
+wYQpK8bco9zA325mxrMxww,1.0
+Rs1zXzwpVPIbtZyDpUrtkA,3.0
+VbuumOewboCfcfSZ4pw_-w,2.0
+hj7U5xIeohSoryeV2yVvRA,2.0
+7Zbdpgo8ekTjPIr-pcvXmQ,4.0
+ads27AIJeak0Aet5foH2ZA,4.0
+Y0tNhPSTB5-yEMUUpUqQrQ,5.0
+cf-J2rZQyklNDFuTEeCIMw,3.0
+kY1_O7ZYXPt2tcOUl4bWWg,3.0
+zIDUDgoHsfvsi8oS8QlgIA,3.0
+eVY6R69N72URgNMTEvF5iA,1.0
+Ziz1dBhYulEfv98sPj9NIw,2.0
+3EuyBoqoFj2hbSXr519Ung,3.0
+V_VIQ6-ViQXIFbHUK3ZGHw,2.0
+iwFKrLOpY3Asqp6ws1-k9w,5.0
+1oesrOIBYtaJUr2Ug5aioQ,5.0
+6RJBeJlbDGrZO91Qc2NG9A,5.0
+lxBBIOqqoMCsWRuulIA5Ng,5.0
+M2lxc_XHAcMVF7huF-sa3w,5.0
+7Ahi2WM6CFomNj6APMyHfQ,5.0
+3d98FFEqExnJEF-t9wl8gg,5.0
+4-bwHBCYE8LwkIDkupXw5Q,5.0
+k4DWGr0w7rWHNDQwehtixQ,5.0
+hdlKoTyo0FuJaP0hiIKRFg,5.0
+rlYeQFuYGqfeCqXWnc4wmg,5.0
+ybkYMP-SjJB8Sn-bnbYluQ,5.0
+P5bUL3Engv-2z6kKohB6qQ,4.0
+GSqN2KsPOrMlx26-qDhS1Q,4.0
+1iW3bch5VuIWRduGmF2bPg,5.0
+M2lxc_XHAcMVF7huF-sa3w,5.0
+CnSzZKKvB74Ynt6VF7YTFg,5.0
+bj8bERNjEhqdfpZeJkVhMw,5.0
+ZofmHA_3r7L34sNQit-HdA,5.0
+4r8Xn9pBJPenGhFW9KE01g,1.0
+yDZKKpOKN8nOGi85XDxEMg,2.0
+n2pcptllE-qv7J-9SXhzEw,5.0
+HKmsxY1avQ-o1QwPm9tvEg,5.0
+C3uOA33U7vUgWVFWWBIr-Q,4.0
+R28RkSgx8kInOWCAx8Ft1A,5.0
+q_8dz9kHbQO7OlXr7vb64w,5.0
+UqxoM6ux53vp_eBWepjsDQ,5.0
+ngdSTWtiU5GIGMmKrwKtFw,5.0
+TvZpLlim7N3-eBlmBO9sOQ,5.0
+q3Dw_e8yzVxyrDiBQuKmqQ,5.0
+IAbP8MYuwSwtio7Y_Dz5nA,4.0
+3Bi1fYOacqaflW-T_YDo9Q,5.0
+kIoFXaNQZ4nYQ6_OjKj2Ag,5.0
+yc-BsRNlB4ZgRFAUsHbBAA,1.0
+KthO0DfsFkX9eZwQg9-HIQ,5.0
+en-1R0nxAFhhG4OWCAXauw,5.0
+r8lsXRrl6x-uANB-ryxmiw,2.0
+-E6Dl3CCjd3hgSkelL5oIA,5.0
+glsyLPhr9wA78au4MqHP8g,5.0
+O5m1TJrvyzOsMnHzgY5STA,5.0
+qY9MOPbqq3K9LwP3Fit_WQ,3.0
+wsEo7QUn6fenj8SwAlp5qQ,2.0
+0I0gMoSFDLOF6kHZuWc6gQ,1.0
+Ml0RGX1t2mW2rOtqV8Th-A,1.0
+NDCEEfxf62TkKk61ztMAHw,2.0
+NuI6HmXwa1twje2vynrfwA,3.0
+lUu2T_0QlaSTIZYxzXMyng,3.0
+-cMBjwhYh8nfTw9Ace3gTA,1.0
+HKmsxY1avQ-o1QwPm9tvEg,2.0
+URqGBYgT_dYi2UY6G0hCFA,1.0
+928cP28goFBfkSqWK3cgYg,2.0
+CfOES30jxRXGIJQVxDIvIg,2.0
+eR1x0Jwc-PlcR9IS7GFCiQ,2.0
+pUigl9caRP8utM6xGc60RQ,4.0
+ldLzs1Zom9hshFGxsHS66A,1.0
+ln-8dqz9uu5TwjVg1vYESg,3.0
+dEjGsJ5H1vk0E0DAI4LLFw,4.0
+aTpaOvF1FFGj8t_5U2_kHA,4.0
+nNegnbZXwLobIpNJlYW8Nw,1.0
+vivFH2_uIcOyqel-cHmxLA,4.0
+0yQ2sjBMyX_gLzVcYFjm5Q,4.0
+MM9oxTXKL6utP1Zq9Eno6g,2.0
+u3IK8BHe_h2s0CGYcSVQ5Q,2.0
+xs4GVB9p7xl-1QVawOPdAg,2.0
+doqjzWCz8eXnDh4gDh3o8A,3.0
+mWXbLHK8L7mqY9hMEFUiYA,3.0
+gDnCUfo0IT_hDl85Vr-h5Q,4.0
+4ULkSSMp3-JH8HegrlfgzQ,3.0
+QDxpOWm7HJyLLSPqUuJTmA,1.0
+ML1NVt5nOwpJnpMRZUiHUA,1.0
+zejhY7mSVWETy51MUpLJ1g,3.0
+xfABd5q-3WBjz-DGVZXc8g,1.0
+d17T8rCXeQfmZzKOyzkdJg,1.0
+dv_5OnBPg1QbMbaexqghKQ,3.0
+1LOjIQnL32HJud5pfNJhzQ,3.0
+fqCxaOI1cvnXx1OlHRUDPg,3.0
+qQrADonZeF9EZSqX_C2O0w,4.0
+qVBQucop3Y4NQzxeF0kaLA,5.0
+7aam1gV_ZR1FN8gVbVvFvQ,4.0
+YeAZODtFoV1ms1xL6uqHiA,4.0
+gLke-4oih1t7urvoQAENcQ,3.0
+gfyW0vuJls8ARoHmogfcmw,3.0
+M4GJQlXSTiyCF4vLgZlLpA,1.0
+9_Z0deH-yik4oTyOzOglWQ,2.0
+Xj0O2l0bp633ebmG468aZw,4.0
+vZljzeao1gleetOhC9BvaA,2.0
+aSuZq5HYPFE0l7VEsAvavg,4.0
+rJdmLMu3IjHBlosTvTogrw,3.0
+RScVO94HmC0Bfe48ernf2w,4.0
+E-2meWKi25Q_Ngp9w86H3g,2.0
+tM_pQj1Vm-uD2zSUCRtgHA,2.0
+ASvjSBCYRd4GhOtSIn8Gyw,1.0
+A8dsipVWFomHq_-1dXjNeQ,2.0
+G9Vb6yQ047TC3O_-GG4WZA,5.0
+aPicmIrsSJAtVCMOL6RlzA,4.0
+LKaLdoD12wf9R8cSGeSaXg,1.0
+yI1usmWhk3b_jMvbZcAUxQ,1.0.......................
+
+................
+
+
+
+q4sql
+
++--------------------+------+
+|              userId|rating|
++--------------------+------+
+|8R1j-nk4aTcK6u7Lh...|   3.0|
+|CfOES30jxRXGIJQVx...|   5.0|
+|quzdKkB0f-cz0r9Qw...|   4.0|
+|JwQ8oI5iXKaqfBgZS...|   4.0|
+|hgkOdCJoO1nGBeXE0...|   3.0|
+|xnHamppubK2qh5kkb...|   3.0|
+|VYPLpBXiiT2nRevd_...|   2.0|
+|-R8K8wYEaOnXoPDwv...|   4.0|
+|LNlJEpd0l3zkpbq2E...|   5.0|
+|k00uR0aOwUazMBszW...|   2.0|
+|4QnzJP-aUg5sLYEP3...|   5.0|
+|l8_Ql4KsjdMXDZjmV...|   5.0|
+|HjtqY13ev1CDLmWk0...|   4.0|
+|e1FuiYSV1v29q2OTR...|   5.0|
+|aZxFIpDIGwGvSrvep...|   5.0|
+|UkfL12n2iBaA3p25p...|   5.0|
+|wRGdmKC5Du-lxo01T...|   3.0|
+|6dq8UdqWhNm5S2is3...|   4.0|
+|8qNbGXszaDvEWO7z9...|   4.0|
+|lmWl9K9qAC5Mbe6e_...|   2.0|
+
+
+
+
+
+
+
+
+
+
+
